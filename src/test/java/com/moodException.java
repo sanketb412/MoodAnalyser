@@ -7,7 +7,7 @@ public class moodException {
     @Test
     public void giveMessage_WhenSad_ShouldReturnSad() {
         MoodAnalyser analyser = new MoodAnalyser();
-        String mood = analyser.analyseMood("Happy");
-        Assertions.assertEquals("HAPPY",mood);
+        String mood = analyser.analyseMood("i am in Sad Mood");
+        Assertions.assertEquals("SAD",mood);
     }
 }
