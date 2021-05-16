@@ -10,7 +10,7 @@ public class moodException {
     //***
     @Test
     public void giveMessage_WhenSad_ShouldReturnSad() {
-        MoodAnalyser analyser = new MoodAnalyser("I am in Sad Mood"); //Message in constructor
+        MoodAnalyser analyser = new MoodAnalyser("I a"); //Message in constructor
         String mood = analyser.analyseMood();
         Assertions.assertEquals("SAD",mood); //excepted sad and return sad
     }
@@ -20,7 +20,7 @@ public class moodException {
     //***
     @Test
     public void giveMessage_WhenHappy_ShouldReturnHappy() {
-        MoodAnalyser analyser = new MoodAnalyser("I am in Happy Mood"); //Message in constructor
+        MoodAnalyser analyser = new MoodAnalyser("in Mood"); //Message in constructor
         String mood = analyser.analyseMood();
         Assertions.assertEquals("HAPPY",mood); //excepted happy and return happy
     }
