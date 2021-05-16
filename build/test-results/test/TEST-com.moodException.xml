@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.moodException" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-16T12:14:43" hostname="FLUFFKIN" time="0.072">
+<testsuite name="com.moodException" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-05-16T12:19:41" hostname="FLUFFKIN" time="0.099">
   <properties/>
-  <testcase name="giveMessage_WhenSad_ShouldReturnSad()" classname="com.moodException" time="0.072"/>
+  <testcase name="giveMessage_WhenSad_ShouldReturnSad()" classname="com.moodException" time="0.084"/>
+  <testcase name="giveMessage_WhenHappy_ShouldReturnHappy()" classname="com.moodException" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
