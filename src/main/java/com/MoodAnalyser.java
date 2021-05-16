@@ -8,11 +8,15 @@ public class MoodAnalyser {
     }
 
     public String analyseMood() {
-            if (message.contains("Sad")){
-                return "SAD";}
-            else if (message.contains("Happy")){
-                return "HAPPY";}
+        try {
+            if (message.contains("Sad"))
+                return "SAD";
             else
-                return "Null";
+                return "HAPPY";
+        } catch (NullPointerException e) {
+            return "HAPPY";
+        }
+
     }
+
 }
