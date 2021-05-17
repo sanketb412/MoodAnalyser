@@ -1,2 +1,5 @@
+com/MoodAnalysisException.java
+ com.MoodAnalysisException
+ com.MoodAnalysisException$ExceptionType
 com/MoodAnalyser.java
  com.MoodAnalyser
